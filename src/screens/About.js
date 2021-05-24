@@ -1,14 +1,14 @@
 import React, { Component } from "react";
+import { Hero } from '../components'
 
 const About = () => {
   return (
     <div>
-      <div class="header"></div>
+      <Hero />
       <div className="content">
         <div class="left">
           <h1>About</h1>
           <p>Noble's House provides services in the process of making UI / UX Design, Web Based Apps, Mobile Apps & IT Consultants.
-          <br></br><br></br>
           We can also assist in the creation process from the beginning as well as those already in the development phase,  
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
           The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to 
