@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Connects } from '../components';
 import { useHistory } from "react-router-dom";
 
 const Homepage = () => {
@@ -8,6 +9,8 @@ const Homepage = () => {
       <h1>Homepageee :)</h1>
       
       <h1 onClick={() => history.push("/about")}>go to about :)</h1>
+
+      <Connects />
     </div>
   );
 };
