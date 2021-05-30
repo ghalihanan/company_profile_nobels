@@ -1,7 +1,6 @@
 import React from "react";
 import "./footer.scss";
 import logo from '../Footer/logo.png';
-import { Button } from "@chakra-ui/react"
 
 const Footer = () => {
   return (
