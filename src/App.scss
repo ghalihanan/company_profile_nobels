@@ -9,31 +9,7 @@ p {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.navbar {
-  background-image: linear-gradient(to right, #09c6f9, #045de9);
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-  cursor: pointer;
-  color: white;
-}
 
-.logo {
-  margin-left: 50px;
-  color: white;
-}
-
-.menu ul {
-  list-style: none;
-  width: 400px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.menu li {
-  cursor: pointer;
-  color: white;
-}
 
 /*  header components */
 /* .header{
