@@ -1,8 +1,8 @@
 import React from "react";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import "./navbar.scss";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
-  const history = useHistory();
   const location = useLocation();
   console.log(location, "  <<< useLocation");
   return (
