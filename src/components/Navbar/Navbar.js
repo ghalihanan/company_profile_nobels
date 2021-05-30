@@ -1,4 +1,5 @@
 import React from "react";
+import "./navbar.scss";
 import { Link, useHistory, useLocation } from "react-router-dom";
 
 function Navbar() {
