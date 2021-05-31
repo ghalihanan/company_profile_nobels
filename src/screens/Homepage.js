@@ -1,10 +1,11 @@
 import React from "react";
-import { Jumbotron } from "../components";
+import { Jumbotron, ProjectProtofolio } from "../components";
 
 const Homepage = () => {
   return (
     <div className="home">
       <Jumbotron />
+      <ProjectProtofolio/>
     </div>
   );
 };
