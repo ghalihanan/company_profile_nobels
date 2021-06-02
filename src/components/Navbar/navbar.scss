@@ -1,0 +1,35 @@
+.navbar{
+    background-image: linear-gradient(to right, #09c6f9, #045de9);
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    cursor: pointer;
+    color: white;
+    height: 9vh;
+
+    .logo {
+        margin-left: 50px;
+        color: white;
+        align-items: center;
+
+        h2{
+            font-weight: bold;
+            font-size: 30px;
+        }
+      }
+
+    .menu {
+
+        ul{
+            list-style: none;
+            width: 400px;
+            display: flex;
+            justify-content: space-around;
+        }
+        li{
+            font-weight: bold;
+            cursor: pointer;
+            color: white;
+        }
+    }
+}

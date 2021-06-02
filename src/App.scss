@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #09c6f9, #045de9);
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  cursor: pointer;
+  color: white;
+}
+
+.logo {
+  margin-left: 50px;
+  color: white;
+}
+
+.menu ul {
+  list-style: none;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  cursor: pointer;
+  color: white;
+}
+
+/*  header components */
+/* .header{
+  background-image: url("header2.png");
+  width: auto;
+  height: 480px;
+}
+
+.container {
+  display: flex;
+  min-height: 90vh;
+  width: 1000px;
+  height: 200px;
+  flex-Direction: column;
+  justify-Content: space-between;
+}
+.content{
+  border-top: 1px solid #FEFEFE; 
+    clear: both;
+    width: auto;
+    margin: 2px  0;
+    background: white;
+    color: #000000;
+    text-align:left;
+}
+.left{
+  text-align: justify;
+  float: left;
+  width: 550px;
+  margin-left: 50px;
+  padding: 10px;
+}
+.right{
+  float: right;
+  width: 550px;
+  margin-right: 50px;
+  padding: 10px;
+}
+ */
