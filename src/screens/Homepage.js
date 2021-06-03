@@ -1,10 +1,13 @@
 import React from "react";
 import { Jumbotron } from "../components";
+import { Connects } from '../components';
 
 const Homepage = () => {
   return (
-    <div className="home">
+    <div className="container">
       <Jumbotron />
+
+      <Connects />
     </div>
   );
 };

@@ -14,15 +14,15 @@ function Navbar() {
         <div className="menu">
           <ul>
             {/* ini pake Link */}
-            <Link to="/Homepage">
+            <Link to="/">
               <li>Home</li>
             </Link>
 
-            <Link to="/">
+            <Link to="">
               <li>Service</li>
             </Link>
 
-            <Link to="/">
+            <Link to="">
             <li>Products</li>
             </Link>
 
