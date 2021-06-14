@@ -1,13 +1,18 @@
 import React from "react";
-import { Jumbotron } from "../components";
-import { Connects } from '../components';
+import { Jumbotron, ProjectProtofolio,Connects } from "../components";
+
 
 const Homepage = () => {
+console.log('ini ngerjain storynya');
   return (
     <div className="container">
       <Jumbotron />
 
+
       <Connects />
+
+      <ProjectProtofolio/>
+
     </div>
   );
 };
