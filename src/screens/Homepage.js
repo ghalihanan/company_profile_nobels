@@ -9,9 +9,10 @@ console.log('ini ngerjain storynya');
       <Jumbotron />
 
 
-      <Connects />
+      
 
       <ProjectProtofolio/>
+    <Connects />
 
     </div>
   );
