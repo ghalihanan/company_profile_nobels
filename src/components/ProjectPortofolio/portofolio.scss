@@ -1,0 +1,199 @@
+.portofolio-container {
+  width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  z-index: 0;
+
+  .box-left {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+    text-align: left;
+    align-items: flex-start;
+    background: linear-gradient(360deg, #045de9 -16.51%, #0796f2 114.44%);
+    color: white;
+    z-index: 1;
+    position: relative;
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: bold;
+    }
+    p {
+      margin-top: 20px;
+    }
+  }
+
+  .box-slider {
+    width: 70vw;
+    overflow: hidden;
+    background-color: #f6f7f8;
+    height: 80vh;
+    z-index: 2;
+    overflow: hidden;
+    position: absolute;
+    margin-left: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.project-slider {
+  width: 100%;
+  position: absolute;
+  margin-right: -50px;
+}
+
+.card-project {
+  background-color: darkcyan;
+  height: 60vh;
+  width: 18vw;
+  z-index: 10;
+  border-radius: 5px;
+  overflow: hidden;
+
+  h1 {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  p {
+    font-size: 0.8rem;
+    max-height: 50vh;
+    overflow: hidden;
+  }
+
+  .link {
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  .link:hover {
+    color: #0796f2;
+  }
+
+  .card-overlay-active {
+    height: 100%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: rgba(12, 3, 3, 0.418);
+  }
+
+  .card-overlay {
+    height: 100%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: rgba(27, 23, 23, 0.747);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .portofolio-container {
+    width: 100vw;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+
+    .box-left {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 80px;
+      text-align: left;
+      align-items: flex-start;
+      background: linear-gradient(360deg, #045de9 -16.51%, #0796f2 114.44%);
+      color: white;
+      z-index: 1;
+
+      h1 {
+        font-size: 1.6rem;
+        font-weight: bold;
+      }
+      p {
+        margin-top: 20px;
+      }
+    }
+
+    .box-slider {
+      width: 100vw;
+      background: #f6f7f8;
+      overflow: hidden;
+      height: 40vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin: 0;
+      padding: 10px;
+    }
+  }
+
+  .project-slider {
+    padding: 50px 10px;
+    width: 190%;
+    margin-right: 0px;
+  }
+
+  .card-project {
+    background-color: darkcyan;
+    height: 30vh;
+    width: 55vw;
+    z-index: 10;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 50px;
+
+    h1 {
+      font-size: 1rem;
+      font-weight: 900;
+    }
+    p {
+      font-size: 0.8rem;
+      max-height: 10vh;
+      overflow: hidden;
+    }
+
+    .link {
+      font-weight: bold;
+      font-size: 10px;
+      cursor: pointer;
+    }
+    .link:hover {
+      color: #0796f2;
+    }
+
+    .card-overlay-active {
+      height: 100%;
+      padding: 20px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+      background-color: rgba(12, 3, 3, 0.418);
+    }
+
+    .card-overlay {
+      height: 100%;
+      padding: 20px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+      background-color: rgba(27, 23, 23, 0.747);
+    }
+  }
+}
